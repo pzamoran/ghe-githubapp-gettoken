@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6d7883be6432584227ab6ca34a76e309971948d356ca943a9fe0b3be22d70e81"
+            "sha256": "87f854afa45f9a0ca8c90d25560f9b72f57b45e9d5b67da6a8f2409c5d9e855b"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -10,11 +10,6 @@
                 "name": "sanpi",
                 "url": "https://nexus.almpre.europe.cloudcenter.corp/repository/pypi-public/simple/",
                 "verify_ssl": false
-            },
-            {
-                "name": "pypi",
-                "url": "https://pypi.org/simple",
-                "verify_ssl": true
             }
         ]
     },
