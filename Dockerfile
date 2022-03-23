@@ -19,7 +19,7 @@ COPY entrypoint.sh /entrypoint.sh
 COPY src/get_token.py /get_token.py
 COPY src/Pipfile* /
 RUN ls /
-
+RUN pipenv install
 RUN pipenv install --deploy --system && rm /Pipfile*
 
 
